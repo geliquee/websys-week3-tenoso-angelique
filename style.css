@@ -1,7 +1,5 @@
-/* ── GOOGLE FONTS ── */
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 
-/* ── VARIABLES ── */
 :root {
   --green:        #2e7d52;
   --green-dark:   #1b4d32;
@@ -21,11 +19,9 @@
   --shadow-lg:    0 8px 40px rgba(30,80,50,0.13);
 }
 
-/* ── RESET ── */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 
-/* ── BASE ── */
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
   background-color: var(--cream);
@@ -34,9 +30,6 @@ body {
   font-size: 15px;
 }
 
-/* ══════════════════════════════
-   HEADER
-══════════════════════════════ */
 header {
   background-color: var(--green-dark);
   background-image:
@@ -95,9 +88,6 @@ header p {
   z-index: 1;
 }
 
-/* ══════════════════════════════
-   NAV
-══════════════════════════════ */
 nav {
   background-color: var(--white);
   border-bottom: 1px solid var(--border);
@@ -136,18 +126,12 @@ nav a.active {
   font-weight: 700;
 }
 
-/* ══════════════════════════════
-   MAIN
-══════════════════════════════ */
 main {
   max-width: 860px;
   margin: 0 auto;
   padding: 52px 24px 100px;
 }
 
-/* ══════════════════════════════
-   HEADINGS
-══════════════════════════════ */
 h2 {
   font-family: 'Playfair Display', serif;
   font-size: 1.55rem;
@@ -175,9 +159,6 @@ h2 {
   margin-bottom: 24px;
 }
 
-/* ══════════════════════════════
-   CARDS
-══════════════════════════════ */
 .card {
   background: var(--white);
   border: 1px solid var(--border);
@@ -193,9 +174,6 @@ h2 {
   transform: translateY(-2px);
 }
 
-/* ══════════════════════════════
-   HERO
-══════════════════════════════ */
 .hero {
   background: linear-gradient(135deg, var(--green-dark) 0%, var(--green) 100%);
   border-radius: 20px;
@@ -243,9 +221,6 @@ h2 {
   font-weight: 400;
 }
 
-/* ══════════════════════════════
-   BUTTONS
-══════════════════════════════ */
 .btn {
   display: inline-block;
   background-color: var(--white);
@@ -283,9 +258,6 @@ h2 {
   border-color: rgba(255,255,255,0.8);
 }
 
-/* ══════════════════════════════
-   PARAGRAPHS
-══════════════════════════════ */
 p {
   margin-bottom: 12px;
   color: var(--text-mid);
@@ -293,9 +265,6 @@ p {
   font-weight: 400;
 }
 
-/* ══════════════════════════════
-   LINKS
-══════════════════════════════ */
 a {
   color: var(--green);
   font-weight: 600;
@@ -307,9 +276,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ══════════════════════════════
-   HOBBY GRID
-══════════════════════════════ */
 .hobby-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
@@ -432,7 +398,7 @@ a:hover {
   text-decoration: none;
   color: var(--green-dark);
 }
-/
+
 .section-intro {
   color: var(--text-light);
   font-size: 0.9rem;
